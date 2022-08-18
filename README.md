@@ -7,6 +7,7 @@ So to implement our image search, we need to do the following: 1. Generate produ
 The training of neural network consists of two steps:
 1.	Forward Propagation 
 2.	 Backward Propagation
+
 This type of approach will not always work because of the limitation of neural networks. A simple neural network cannot work with large data or too much information, and images contain too much information to be processed. That‘s why we will be using a modified neural network to process these images and generate features first. So needed CNN rather Pretrained state of art architecture
 After generating features of the test image, we will use KNN to find similar images to that of our test image. The neighbour's function will return the indices of the nearest k neighbours
 
